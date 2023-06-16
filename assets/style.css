@@ -1,0 +1,66 @@
+body {
+    background-color: azure;
+}
+h1, h2 {
+    color: pink;
+    font-size: 45px;
+    margin: 0;
+}
+p {
+    color: blue;
+    font-size: 20px;
+}
+.title {
+    color: darkorange;
+}
+.titleDesc {
+    color: darkturquoise;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.box {
+    margin-top: 35px;
+    /* solid - сплошная заливка, dashed - пунктир */
+    border: 4px dashed greenyellow;
+    width: 500px;
+    background-color:bisque;
+    padding: 25px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapperList {
+    margin-top: 30px;
+}
+.image {
+    margin-top: 35px;
+}
+hr {
+    background-color: pink;
+    height: 3px;
+}
+li {
+    font-size: 25px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.active {
+    color:red;
+    font-size: 35px;
+}
+.activeBox {
+    background-color: rgb(255, 252, 80);
+}
+button {
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    color: antiquewhite;
+    background-color: darkgray;
+    margin-top: 35px;
+}
